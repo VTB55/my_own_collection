@@ -1,0 +1,10 @@
+---
+- name: Use create_file role
+  hosts: localhost
+  connection: local
+  vars:
+    file_path: "/tmp/role_created_file.txt"
+    file_content: "This file was created by Ansible role from collection"
+  
+  roles:
+    - role: my_own_namespace.yandex_cloud_elk.create_file_role

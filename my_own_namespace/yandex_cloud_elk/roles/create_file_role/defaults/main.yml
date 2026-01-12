@@ -1,0 +1,4 @@
+---
+file_path: /tmp/default_file.txt
+file_content: "Default content created by Ansible role"
+file_mode: '0644'
